@@ -1,0 +1,145 @@
+*,
+*::after,
+*::before {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+html {
+  height: 100vh;
+  width: 100vw;
+}
+body {
+  width: 100%;
+  background-color: #181868c0;
+  color: white;
+}
+
+.perfil-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  height: 100vh;
+  width: 80%;
+}
+.perfil-name__container {
+  font-size: 20px;
+}
+.perfil-img__container img {
+  border-radius: 50px;
+  -webkit-border-radius: 50px;
+  -moz-border-radius: 50px;
+  -ms-border-radius: 50px;
+  -o-border-radius: 50px;
+}
+.datos-container {
+  background-color: #222;
+}
+
+.datos-container h2,
+.idiomas-container,
+.estudios-container h2,
+.pasatiempo-container h2,
+.peliculas-container h2 {
+  font-size: 40px;
+  text-align: center;
+}
+.datos-lista {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-evenly;
+  height: 350px;
+  list-style: square;
+}
+.datos-lista__item > a {
+  text-decoration: none;
+  color: white;
+}
+.datos-lista__item > a:hover {
+  text-decoration: underline;
+}
+
+.estudios-body {
+  margin-top: 25px;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+.card-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
+  height: 400px;
+  width: 400px;
+  list-style: square;
+  background-color: #222;
+}
+.card-photos {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
+  height: 60%;
+}
+.card-photos img {
+  max-width: 50%;
+}
+.idiomas-container {
+  margin-top: 40px;
+  background-color: #222;
+  margin-bottom: 15px;
+}
+.idiomas-lista {
+  margin-top: 15px;
+}
+.pasatiempo-container {
+  margin-top: 30px;
+}
+.pasatiempo-lista {
+  margin-top: 15px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  list-style: square;
+  height: 120px;
+}
+
+.peliculas-container {
+  background-color: #222;
+  margin-top: 40px;
+}
+.card-container__movie {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  width: 400px;
+  height: 400px;
+}
+
+.card-photos__movie {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
+  height: 60%;
+}
+.card-photos__movie img {
+  max-width: 50%;
+}
+.pelid {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  width: 100%;
+}
+.frame-container {
+  width: 100%;
+  text-align: center;
+}
+.frame-container iframe {
+  width: 60%;
+}
